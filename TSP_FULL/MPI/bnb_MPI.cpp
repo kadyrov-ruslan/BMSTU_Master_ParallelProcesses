@@ -97,7 +97,7 @@ void BnB_solver<T1,T2>::solve(T1 p){
 				//slave has been given a partially solved problem to expand
 				prb = T1::decode_prob(buffer,pos);
 				T2 s = T1::decode_sol(buffer,pos);
-				s.prob_ptr = &prb;
+				s.problem_ptr = &prb;
 				q.push(s);
 				fflush(stdout);
 				sscanf(buffer+pos,"%d%n",&best_cost,&b);
