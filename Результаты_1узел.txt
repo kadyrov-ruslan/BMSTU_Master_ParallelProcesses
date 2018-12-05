@@ -1,0 +1,26 @@
+Minimum cost of 79 achieved for the path with vertices 1, 2, 0, 3, 
+real	0m0.008s
+
+Minimum cost of 79 achieved for the path with vertices 1, 2, 0, 3, 
+real	0m0.004s
+
+Minimum cost of 162 achieved for the path with vertices 1, 7, 6, 2, 4, 5, 0, 3, 
+real	0m0.786s
+
+Minimum cost of 170 achieved for the path with vertices 1, 7, 6, 2, 0, 5, 4, 8, 3, 
+real	0m5.024s
+
+Minimum cost of 170 achieved for the path with vertices 1, 7, 6, 2, 0, 5, 4, 8, 3, 
+real	0m4.834s
+
+Minimum cost of 170 achieved for the path with vertices 1, 7, 6, 2, 0, 5, 4, 8, 3, 
+real	0m5.888s
+
+Minimum cost of 170 achieved for the path with vertices 1, 7, 6, 2, 0, 5, 4, 8, 3, 
+real	0m6.672s
+
+Minimum cost of 209 achieved for the path with vertices 3, 2, 6, 7, 1, 9, 4, 5, 0, 8, 
+real	0m57.189s
+
+Minimum cost of 209 achieved for the path with vertices 3, 2, 6, 7, 1, 9, 4, 5, 0, 8, 
+real	1m6.172s
