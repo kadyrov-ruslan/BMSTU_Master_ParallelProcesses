@@ -13,7 +13,6 @@ char buffer[2000];
 
 template <typename T1, typename T2> void BnB_solver<T1, T2>::solve(T1 p)
 {
-	//MPI_Initialized();
 	MPI_Init(0, NULL);
 	int pid, num;
 	MPI_Comm_rank(MPI_COMM_WORLD, &pid);
@@ -29,7 +28,7 @@ template <typename T1, typename T2> void BnB_solver<T1, T2>::solve(T1 p)
 		bool is_idle[num + 1];
 		int num_idle;
 		for (int i = 1; i < num; i++)
-			is_idle[i] = true; // mark all as idle
+			is_idle[i] = true; // mark all processors as idle
 
 		num_idle = num - 1;
 		//encode initial problem and empty sol into buffer
