@@ -1,9 +1,6 @@
-Group Information :
-   Akhilesh Anandh 2011A7PS030P
-   Danish          2011A7PS037P
 
    Problem Statement : Branch And Bound
-   Problems Selected : 0/1 Knapsack and TSP
+   Problems Selected : TSP
 ***********************************************************************************
 Problem statement : 
 1. Design a hybrid Branch-and-Bound Skeleton scheme for a target platform that is
@@ -25,10 +22,6 @@ OpenMP Version
 
 In the OpenMP Subdirectory : 
 ------------------------------
-For running Knapsack Problem ;
-g++ -fopenmp knapsack.cpp
-time ./a.out < knapsack.txt
-------------------------------
 For running TSP Problem :
 g++ -fopenmp tsp.cpp
 time ./a.out < tsp.txt
@@ -40,12 +33,6 @@ MPI Version
 
 In the MPI Subdirectory :
 -----------------------------------
-For running Knapsack Problem ;
-mpic++ knapsack.cpp
-time mpirun -np x ./a.out < knapsack.txt
-
-where x is the number of processors
-----------------------------------
 For running TSP Problem 
 mpic++ tsp.cpp
 time mpriun -np x ./a.out < tsp.txt
@@ -56,12 +43,6 @@ where x is the number of processors
 Hybrid Model
 
 In the Hybrid Subdirectory :
-----------------------------------
-For running knapsack problem : 
-mpic++ -fopenmp knapsack.cpp
-time mpirun -np x ./a.out < knapsack.txt
-
-where x is the number of processors
 ----------------------------------
 For running TSP Problem 
 mpic++ -fopenmp tsp.cpp
